@@ -1,0 +1,15 @@
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\bin\Debug\net8.0\LibrarySystem.Services.deps.json
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\bin\Debug\net8.0\LibrarySystem.Services.dll
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\bin\Debug\net8.0\LibrarySystem.Services.pdb
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\bin\Debug\net8.0\LibrarySystem.Models.dll
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\bin\Debug\net8.0\LibrarySystem.Models.pdb
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.csproj.AssemblyReference.cache
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.AssemblyInfoInputs.cache
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.AssemblyInfo.cs
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.csproj.CoreCompileInputs.cache
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibraryS.A8AE4491.Up2Date
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.dll
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\refint\LibrarySystem.Services.dll
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\LibrarySystem.Services.pdb
+D:\Intern\Project\Git\LibrarySystem\LibrarySystem.Services\obj\Debug\net8.0\ref\LibrarySystem.Services.dll
