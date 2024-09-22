@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj": {}
+    "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj": {}
   },
   "projects": {
-    "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj": {
+    "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
+        "projectUniqueName": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
         "projectName": "LibrarySystem.Models",
-        "projectPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
+        "projectPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
         "packagesPath": "C:\\Users\\EslaM\\.nuget\\packages\\",
-        "outputPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\obj\\",
+        "outputPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EslaM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -88,14 +88,14 @@
         }
       }
     },
-    "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj": {
+    "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj",
+        "projectUniqueName": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj",
         "projectName": "LibrarySystem.Services",
-        "projectPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj",
+        "projectPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj",
         "packagesPath": "C:\\Users\\EslaM\\.nuget\\packages\\",
-        "outputPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\obj\\",
+        "outputPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EslaM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj": {
-                "projectPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj"
+              "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj": {
+                "projectPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj"
               }
             }
           }

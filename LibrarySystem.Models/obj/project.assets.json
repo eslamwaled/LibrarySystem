@@ -5298,11 +5298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
+      "projectUniqueName": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
       "projectName": "LibrarySystem.Models",
-      "projectPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
+      "projectPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
       "packagesPath": "C:\\Users\\EslaM\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\obj\\",
+      "outputPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EslaM\\AppData\\Roaming\\NuGet\\NuGet.Config"

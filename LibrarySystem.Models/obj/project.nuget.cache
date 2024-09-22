@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cZ7S/8EuDQEOLyTO23gAtfovyJc3omd0Dz4SAi1MWg08EzxQSfdgWRGE0WR/1saPS1ASfCBMRZ/nwMgWd0Dh3Q==",
+  "dgSpecHash": "bn4Y2ziAt3H1JzVVEsitJJrivIeYzs35L+Dudo2klUZSCuRp4/jek9LPpqxCaZjRlMpgWSigO6/qxCUmPg9MoA==",
   "success": true,
-  "projectFilePath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
+  "projectFilePath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Models\\LibrarySystem.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EslaM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\EslaM\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -5873,11 +5873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Api\\LibrarySystem.Api.csproj",
+      "projectUniqueName": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Api\\LibrarySystem.Api.csproj",
       "projectName": "LibrarySystem.Api",
-      "projectPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Api\\LibrarySystem.Api.csproj",
+      "projectPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Api\\LibrarySystem.Api.csproj",
       "packagesPath": "C:\\Users\\EslaM\\.nuget\\packages\\",
-      "outputPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Api\\obj\\",
+      "outputPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EslaM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5892,8 +5892,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj": {
-              "projectPath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj"
+            "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj": {
+              "projectPath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj"
             }
           }
         }

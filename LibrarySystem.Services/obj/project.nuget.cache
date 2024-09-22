@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AFsbbTxCGy1/bbcu6YA/e2GL7QEj70VrAEziTwijygcs3uHeJC7TgvDw+iMCSIDRhareA4TNL1VIHErdeBAapg==",
+  "dgSpecHash": "+pZMLIsjYdMB8W1+IUleOwG1M0gvmQKhnZ3OSQHby1g5/Yn2TZyE2x3plTykpUStHfkFMYYeXt+MM5o74m0drQ==",
   "success": true,
-  "projectFilePath": "D:\\Intern\\Project\\Git\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj",
+  "projectFilePath": "D:\\Intern\\Project\\Git\\Library-System\\LibrarySystem\\LibrarySystem.Services\\LibrarySystem.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EslaM\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\EslaM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
