@@ -10,10 +10,15 @@ namespace LibrarySystem.Services.Src.EF.Repo.Imp
     {
         private readonly DbSet<User> _DbSet;
         private readonly IMapper _mapper;
-        public UserRepo(DemoDBContext context, IMapper mapper) : base(context)
+        public UserRepo(DBContext context, IMapper mapper) : base(context)
         {
             _DbSet = context.Set<User>();
             _mapper = mapper;
         }
+        public async Task<User> GetUserForLogin(string email, string password)
+        {
+            var user = await _DbSet.FirstOrDefaultAsync(x => x.Email == email && x.Password == password);
+            return user;
+        }
     }
-} 
+}

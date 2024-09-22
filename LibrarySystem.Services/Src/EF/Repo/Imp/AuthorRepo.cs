@@ -11,7 +11,7 @@ namespace LibrarySystem.Services.Src.EF.Repo.Imp
     {
         private readonly DbSet<Author> _DbSet;
         private readonly IMapper _mapper;
-        public AuthorRepo(DemoDBContext context, IMapper mapper) : base(context)
+        public AuthorRepo(DBContext context, IMapper mapper) : base(context)
         {
             _DbSet = context.Set<Author>();
             _mapper = mapper;

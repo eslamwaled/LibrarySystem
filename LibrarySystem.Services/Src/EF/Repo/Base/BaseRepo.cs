@@ -6,10 +6,10 @@ namespace LibrarySystem.Services.Src.EF.Repo.Base
 {
     public class BaseRepo<T> : IBaseRepository<T> where T : class
     {
-        private readonly DemoDBContext _context;
+        private readonly DBContext _context;
         private readonly DbSet<T> _dbSet;
 
-        public BaseRepo(DemoDBContext context)
+        public BaseRepo(DBContext context)
         {
             _context = context;
             _dbSet = _context.Set<T>();

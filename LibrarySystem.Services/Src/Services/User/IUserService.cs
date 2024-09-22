@@ -12,5 +12,6 @@ namespace LibrarySystem.Services.Src.Services.user
         Task AddAsync(UserDTO user);
         Task UpdateAsync(UserDTO user);
         Task DeleteAsync(Guid id);
+        Task<UserDTO> FindByEmailAsync(string email,string password);
     }
 }

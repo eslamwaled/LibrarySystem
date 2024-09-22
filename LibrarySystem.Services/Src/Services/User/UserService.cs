@@ -47,6 +47,11 @@ namespace LibrarySystem.Services.Src.Services.user
         {
             await _userRepository.DeleteAsync(id);
         }
+        public async Task<UserDTO> FindByEmailAsync(string email, string password)
+        {
+            var user = await _userRepository.GetUserForLogin(email, password);
+            return _mapper.Map<UserDTO>(user);
+        }
     }
 
 }

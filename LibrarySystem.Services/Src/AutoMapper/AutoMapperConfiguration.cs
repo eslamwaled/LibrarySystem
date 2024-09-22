@@ -1,5 +1,6 @@
 using AutoMapper;
 using LibrarySystem.Models.Entities;
+using LibrarySystem.Services.Src.Services.auth;
 using LibrarySystem.Services.Src.Services.author.DRO;
 using LibrarySystem.Services.Src.Services.book.DTO;
 using LibrarySystem.Services.Src.Services.user.DTO;
@@ -18,6 +19,8 @@ namespace LibrarySystem.Services.Src.AutoMapper
             CreateMap<User, UserDTO>().ReverseMap();
 
             CreateMap<Book, BookDTO>().ReverseMap();
+            CreateMap<UserOutPutDTO,UserDTO>().ReverseMap();
+            CreateMap<RegisterDto, UserDTO>().ReverseMap();
         }
 
     }

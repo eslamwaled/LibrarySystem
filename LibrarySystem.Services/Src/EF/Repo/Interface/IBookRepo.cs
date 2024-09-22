@@ -7,6 +7,5 @@ namespace LibrarySystem.Services.Src.EF.Repo.Interface
     [ScopedService]
     public interface IBookRepo : IBaseRepository<Book>
     {
-        Task AddAsync(Book book);
     }
 }

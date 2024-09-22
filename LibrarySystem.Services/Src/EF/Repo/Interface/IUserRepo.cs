@@ -7,6 +7,6 @@ namespace LibrarySystem.Services.Src.EF.Repo.Interface
     [ScopedService]
     public interface IUserRepo : IBaseRepository<User>
     {
-        Task AddAsync(User userEntity);
+        Task<User> GetUserForLogin(string email, string password);
     }
 }
