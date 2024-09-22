@@ -8,7 +8,7 @@ namespace LibrarySystem.Services.Src.Services.auth
     public interface IAuthService
     {
         Task<bool> RegisterAsync(RegisterDto registerDto);
-        Task<string> LoginAsync(LoginDto loginDto);
+        Task<UserOutPutDTO> LoginAsync(LoginDto loginDto);
     }
 }
 

@@ -80,7 +80,6 @@ namespace LibrarySystem.Models.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -173,13 +172,13 @@ namespace LibrarySystem.Models.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "078fc372-2a20-44d5-b01c-30e6d691a910",
+                            Id = "de7b1657-b77f-4820-af2f-ac4e9dd340bd",
                             Name = "user",
                             NormalizedName = "user"
                         },
                         new
                         {
-                            Id = "83e99429-3251-408c-9c94-6e7d71ed4c69",
+                            Id = "e3326b92-4beb-4e81-a993-ff8b998f0580",
                             Name = "admin",
                             NormalizedName = "admin"
                         });

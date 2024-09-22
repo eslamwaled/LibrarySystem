@@ -33,11 +33,11 @@ namespace LibrarySystem.Models.Migrations
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Role = table.Column<int>(type: "int", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedEmail = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     EmailConfirmed = table.Column<bool>(type: "bit", nullable: false),
                     PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -201,8 +201,8 @@ namespace LibrarySystem.Models.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "3765446e-a08d-40c9-8670-031b034d1554", null, "admin", "admin" },
-                    { "a6bb2258-f9c7-4a76-b34d-541e29b9ddec", null, "user", "user" }
+                    { "de7b1657-b77f-4820-af2f-ac4e9dd340bd", null, "user", "user" },
+                    { "e3326b92-4beb-4e81-a993-ff8b998f0580", null, "admin", "admin" }
                 });
 
             migrationBuilder.CreateIndex(

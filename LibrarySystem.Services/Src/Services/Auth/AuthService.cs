@@ -33,26 +33,29 @@ namespace LibrarySystem.Services.Src.Services.auth
                 EmailConfirmed = true
             };
 
+            // The normalization happens automatically here
             var result = await _userManager.CreateAsync(user, registerDto.Password);
             return result.Succeeded;
         }
 
-        public async Task<string> LoginAsync(LoginDto loginDto)
+
+        public async Task<UserOutPutDTO> LoginAsync(LoginDto loginDto)
         {
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
 
             if (user == null)
             {
-                return "User not found";
+                return null;
             }
+            var userDto = _mapper.Map<UserOutPutDTO>(user);
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
             if (result.Succeeded)
             {
-                return "Login successful";
+                return userDto;
             }
 
-            return "Invalid credentials";
+            return null;
         }
 
 

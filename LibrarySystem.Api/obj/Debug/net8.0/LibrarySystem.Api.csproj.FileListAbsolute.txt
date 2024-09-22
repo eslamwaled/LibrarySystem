@@ -299,3 +299,6 @@ D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\obj\Debug\n
 D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\obj\Debug\net8.0\LibrarySystem.Api.pdb
 D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\obj\Debug\net8.0\LibrarySystem.Api.genruntimeconfig.cache
 D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\obj\Debug\net8.0\ref\LibrarySystem.Api.dll
+D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\bin\Debug\net8.0\LibrarySystem.Api.staticwebassets.runtime.json
+D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Intern\Project\Git\Library-System\LibrarySystem\LibrarySystem.Api\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll

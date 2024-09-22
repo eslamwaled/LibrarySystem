@@ -4,7 +4,7 @@ using LibrarySystem.Models.Common;
 
 namespace LibrarySystem.Services.Src.Services.user.DTO
 {
-    public class UserDTO
+    public record UserDTO
     {
         public Guid Id { get; set; }
 

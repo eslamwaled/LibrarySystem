@@ -27,12 +27,20 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDto loginDto)
     {
-        var result = await _authService.LoginAsync(loginDto);
-        if (result !=null )
+        try
         {
-            return Ok(result);
-        }
+            var result = await _authService.LoginAsync(loginDto);
+            if (result != null)
+            {
+                return Ok(result);
+            }
 
-        return Unauthorized(result);
+            return Unauthorized("Invalid credentials");
+        }
+        catch (Exception ex)
+        {
+            // Log the exception (ex) here if needed
+            return StatusCode(500, "An error occurred while processing your request.");
+        }
     }
 }

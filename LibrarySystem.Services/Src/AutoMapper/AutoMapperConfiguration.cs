@@ -19,7 +19,7 @@ namespace LibrarySystem.Services.Src.AutoMapper
             CreateMap<User, UserDTO>().ReverseMap();
 
             CreateMap<Book, BookDTO>().ReverseMap();
-            CreateMap<UserOutPutDTO,UserDTO>().ReverseMap();
+            CreateMap<UserOutPutDTO,User>().ReverseMap();
             CreateMap<RegisterDto, UserDTO>().ReverseMap();
         }
 

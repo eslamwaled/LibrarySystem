@@ -4,7 +4,7 @@ using LibrarySystem.Models.Common;
 
 namespace LibrarySystem.Services.Src.Services.auth
 {
-    public class UserOutPutDTO
+    public record UserOutPutDTO
     {
         public Guid Id { get; set; }
         [Required]
