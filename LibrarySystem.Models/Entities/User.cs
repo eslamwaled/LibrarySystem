@@ -3,7 +3,7 @@ using LibrarySystem.Models.Common;
 
 namespace LibrarySystem.Models.Entities
 {
-    public class User:IdentityUser
+    public class User : IdentityUser
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

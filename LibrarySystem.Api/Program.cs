@@ -1,8 +1,13 @@
+using LibrarySystem.Models.Entities;
 using LibrarySystem.Services.Src.AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TanvirArjel.Extensions.Microsoft.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<DBContext>()
+    .AddDefaultTokenProviders();
 builder.Services.AddDbContext<DBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddServicesOfAllTypes(new[] { "LibrarySystem.Services" });
